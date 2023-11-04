@@ -15,3 +15,13 @@
 
 1. 阻止冒泡：`当前对象.stopPropagation()`
 2. 阻止网页默认行为：`e.preveDefault()`
+
+## 3.鼠标滚动事件
+
+![image-20231105004501082](C:\Users\张吉勇\AppData\Roaming\Typora\typora-user-images\image-20231105004501082.png)
+
+### 3.1相关属性
+
+![image-20231105004951933](C:\Users\张吉勇\AppData\Roaming\Typora\typora-user-images\image-20231105004951933.png)
+
+![image-20231105010106840](C:\Users\张吉勇\AppData\Roaming\Typora\typora-user-images\image-20231105010106840.png)
