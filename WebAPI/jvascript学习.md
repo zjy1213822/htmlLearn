@@ -29,3 +29,18 @@
 ## 4.client家族和offset家族
 
 ![image-20231105113149775](C:\Users\张吉勇\AppData\Roaming\Typora\typora-user-images\image-20231105113149775.png)
+
+## 5.日期对象
+
+```javascript
+const date = new Date();
+    
+    console.log(date.getFullYear());
+    // 月份要加1
+    console.log(date.getMonth() + 1);
+    console.log(date.getDate());
+    console.log(date.getHours());
+    console.log(date.getMinutes())
+    console.log(date.getSeconds())
+```
+
