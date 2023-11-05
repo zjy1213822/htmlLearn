@@ -44,3 +44,48 @@ const date = new Date();
     console.log(date.getSeconds())
 ```
 
+### 5.3 时间戳获取方法
+
+```javascript
++ new Date()
+date.getTime()
+```
+
+# 二.DOM节点
+
+> 所有dom树里的节点都是DOM节点
+
+## 1.DOM节点的获取
+
+1. ```javascript
+      //获取dom对象的父节点
+   dom对象.parentNode
+   //子节点
+   dom对象.children
+   //兄弟节点
+   dom对象.next(previews)ElementSimbling
+   ```
+   
+   
+   
+   
+   
+   
+
+## 2.DOM节点的创建与追加
+
+```
+dom.creatElement('标签名')
+//追加，append都放到最后的子元素
+父.append(创建的标签)
+父.insertBefore（创建的元素，放在哪个元素前）
+//克隆元素，true为深克隆，false为浅克隆
+元素.cloneNode（boolean）
+```
+
+## 3.shanchu
+
+```
+父.removeChild（）
+```
+
