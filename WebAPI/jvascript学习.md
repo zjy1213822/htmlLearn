@@ -25,3 +25,7 @@
 ![image-20231105004951933](C:\Users\张吉勇\AppData\Roaming\Typora\typora-user-images\image-20231105004951933.png)
 
 ![image-20231105010106840](C:\Users\张吉勇\AppData\Roaming\Typora\typora-user-images\image-20231105010106840.png)
+
+## 4.client家族和offset家族
+
+![image-20231105113149775](C:\Users\张吉勇\AppData\Roaming\Typora\typora-user-images\image-20231105113149775.png)
