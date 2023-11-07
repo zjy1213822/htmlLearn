@@ -85,3 +85,21 @@ let arr = ['张三', '李四', '王五']
     console.log(newarr);
 ```
 
+# 正则表达式
+
+## 1.使用步骤
+
+```javascript
+let texct = '我是一只猫，快乐的星猫'
+//定义规则
+const rule = /猫/
+    //匹配
+console.log(rule.test(texct))
+rule.exec(texct)//返回数组
+```
+
+## 元字符
+
+![image-20231107220543069](C:\Users\张吉勇\AppData\Roaming\Typora\typora-user-images\image-20231107220543069.png)
+
+> 如果^和$同时使用表示使用的是精确匹配
