@@ -75,7 +75,7 @@ date.getTime()
 ## 2.DOM节点的创建与追加
 
 ```
-dom.creatElement('标签名')
+document.creatElement('标签名')
 //追加，append都放到最后的子元素
 父.append(创建的标签)
 父.insertBefore（创建的元素，放在哪个元素前）

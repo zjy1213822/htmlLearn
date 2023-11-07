@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      width: 299px;
+      height: 122px;
+      background-color: palegreen;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+
+  </div>
+  <script>
+    const a = document.querySelector(`.box`)
+    setTimeout(() => {
+      a.style.display = `none`
+    }, 3000);
+    //存储
+    localStorage.setItem(`name`, `张三`)
+    localStorage.setItem(`age`, `18`)
+    localStorage.removeItem('name')
+    console.log(localStorage.getItem('age'));
+    const obj = {
+      user: 'jone',
+      sex: 'nan',
+    }
+    localStorage.setItem('obj', JSON.stringify(obj))
+    console.log(localStorage.getItem('obj'))
+    let arr = ['张三', '李四', '王五']
+    let arr1 = arr.map(function (item, index) {
+      return '名字:' + item
+    })
+    console.log(arr1);
+    let newarr = arr1.join()
+    console.log(newarr);
+  </script>
+</body>
+
+</html>
