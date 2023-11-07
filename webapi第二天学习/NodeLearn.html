@@ -22,8 +22,7 @@
     console.log(div.children[0].children[0]);
     (function () {
       let ul = document.querySelector(`ul`)
-
-      let li = ul.creatElement('li')
+      let li = document.createElement('li')
       li.innerText = '你好'
       ul.append(li)
     })()
