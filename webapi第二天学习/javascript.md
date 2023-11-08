@@ -103,3 +103,10 @@ rule.exec(texct)//返回数组
 ![image-20231107220543069](C:\Users\张吉勇\AppData\Roaming\Typora\typora-user-images\image-20231107220543069.png)
 
 > 如果^和$同时使用表示使用的是精确匹配
+
+实例，账号只能6-18位，且只能由英文字母，__和数字构成
+
+```javascript
+/^[A-z0-9-_]{6,18}$/
+```
+
