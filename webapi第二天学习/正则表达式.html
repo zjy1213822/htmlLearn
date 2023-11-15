@@ -12,9 +12,10 @@
     let texct = '我是一只猫，快乐的星猫'
     //定义规则
     const rule = /猫/
-    //匹配
+    //是否匹配
     console.log(rule.test(texct))
     //true
+    rule.exec(texct)//返回数组
   </script>
 </body>
 

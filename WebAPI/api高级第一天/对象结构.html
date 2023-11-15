@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // const { username, password } = {
+    //   username: "admin",
+    //   password: "123456"
+    // }
+    // console.log(username, password)
+    const pig = {
+      name: '佩奇',
+      age: 6
+    }
+    const { name, age } = pig
+    const { name: uname, age: age1 } = pig
+    console.log(name, age, uname, age1)
+    console.log(name, age)
+    const goods = [
+      {
+        goodsName: "小米",
+        price: 1999
+      }
+    ]
+    const [{ goodsName, price }] = goods
+    console.log(goodsName, price)
+  </script>
+</body>
+
+</html>
