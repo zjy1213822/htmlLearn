@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    function Start(name, age) {
+      this.name = name;
+      this.age = age;
+    }
+
+    Start.prototype = {
+      constructor: Start,
+      sayAge: function () {
+        console.log("I am " + this.age);
+      },
+      sayHi: function () {
+        console.log("Hi, I am " + this.name);
+      }
+
+    }
+    const perpson = new Start("John", 20);
+    console.log(perpson);
+    perpson.sayHi();
+    perpson.sayAge();
+  </script>
+
+</body>
+
+</html>
