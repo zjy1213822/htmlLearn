@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    //创意一个需要被继承的构造函数
+    function People(name, age, sex) {
+      this.name = name;
+      this.age = age;
+      this.sex = sex;
+    }
+    //子对象继承父类构造函数
+    function women() {
+
+    }
+    //子对象的原型对象来创建父类对象
+    women.prototype = new People();
+    //最后将其构造函数指会自己
+    women.prototype.constructor = women;
+    console.log(women.prototype.constructor === women);
+    function man() {
+
+    }
+  </script>
+</body>
+
+</html>
